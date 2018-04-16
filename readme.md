@@ -1,7 +1,7 @@
 # Repository to practice with git branch & merge
 
 ## Working with branches
-Common Tasks/Commands
+Common Task Commands:
 
 - `git branch BRANCH-NAME` - Create a branch with the name of **BRANCH-NAME**
 - `git branch` - Display the branch you're currently on
@@ -9,3 +9,8 @@ Common Tasks/Commands
 - `git checkout BRANCH-NAME` - Switch to the branch with name **BRANCH-NAME**
 - `git merge --no-ff BRANCH-NAME` - Merge **BRANCH-NAME** into the current branch (use `git branch` to determine the current branch)
 - `git pull origin BRANCH-NAME` - Pull down changes from the remote
+
+## Protecting branches in GitHub
+
+- [About Required Reviews](https://help.github.com/articles/about-required-reviews-for-pull-requests/)
+- [Enabling Required Reviews](https://help.github.com/articles/enabling-required-reviews-for-pull-requests/)
